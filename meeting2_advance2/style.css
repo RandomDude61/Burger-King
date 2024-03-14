@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(64,64,64);
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+main {
+    color: #8b542f;
+}
+main h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.content img {
+    width: 100%;
+    
+}
+
+footer {
+    background-color: rgb(64,64,64);
+    font-family: Flame-Bold;
+    padding: 50px 200px;
+}
+
+footer h2 {
+    color: white;
+}
+
+.contact-element {
+    display: block;
+}
+
+.contact-element a {
+    display: inline-block;
+    margin: 10px 25px 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.ext-link {
+    display: block;
+}
+
+.ext-link a {
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.tab {
+    background-color: #fff;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+    text-align: center;
+}
+
+img.title {
+    width: 100%;
+}
+
+main {
+    background-image: url(https://bkdelivery.co.id/static/website/img/BK_bg.jpg?5218847fa211);
+}
